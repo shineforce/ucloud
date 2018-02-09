@@ -14,8 +14,8 @@
         "php": ">=5.5.9"
     },
     "autoload": {
-        "psr-0": {
-            "Shineoforce\\Ucloud": "src/"
+        "psr-4": {
+            "Shineforce\\Ucloud": "src/"
         },
         "files": [
             "src/function.php"
