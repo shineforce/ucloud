@@ -1,0 +1,24 @@
+{
+    "name": "shineforce/ucloud",
+    "description": "ucloud",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shineforce",
+            "email": "shineforce@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-0": {
+            "Shineoforce\\Ucloud": "src/"
+        },
+        "files": [
+            "src/function.php"
+        ]
+    }
+}
