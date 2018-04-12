@@ -13,10 +13,6 @@ class Ucloud
     public static function upload($key, $file)
     {
         list($data, $err) = UCloud_PutFile(self::bucket(), $key, $file);
-        if ($err->Code == '-1') {
-            return $err;
-        }else{
-            return $data['ETag'];
-        }
+    	return ['date'=>$data,'err'=>$err];	
     }
 }
